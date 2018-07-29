@@ -1,6 +1,10 @@
 # Android Image Classifier 
 
-An android app for recognizing persian numbers with Tensorflow and android studio
+An android app for recognizing persian numbers with Tensorflow and android studio written in kotlin
+
+
+
+
 
 
 
@@ -17,82 +21,40 @@ Just clone the project.
 
 ### Prerequisites
 
-If you want to build your own image classifier you shoud install Tensorflow furthermore you need your own dataset. for more help visit this [website][website].
+If you want to build your own image classifier you shoud install Tensorflow furthermore you need your own dataset.
+Note: python (version 3.+) required.
 
+this command are for windows users:
 ```
-Give examples
+C:\> pip3 install --upgrade tensorflow
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+To install the GPU version of TensorFlow, enter the following command:
 ```
-Give the example
+C:\> pip3 install --upgrade tensorflow-gpu
 ```
-
-And repeat
-
+**Installing with Anaconda:**
+1. Follow the instructions on the [Anaconda download site](https://www.continuum.io/downloads "Anaconda download site") to download and install Anaconda.
+1. Create a conda environment named tensorflow by invoking the following command:
 ```
-until finished
+C:> conda create -n tensorflow pip python=3.5 
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+1. Activate the conda environment by issuing the following command:
 ```
-Give an example
+C:> activate tensorflow
+ (tensorflow)C:>  # Your prompt should change 
+```
+1. Issue the appropriate command to install TensorFlow inside your conda environment. To install the CPU-only version of TensorFlow, enter the following command:
+```
+(tensorflow)C:> pip install --ignore-installed --upgrade tensorflow 
+```
+To install the GPU version of TensorFlow, enter the following command (on a single line):
+```
+(tensorflow)C:> pip install --ignore-installed --upgrade tensorflow-gpu 
 ```
 
-### And coding style tests
+ for more help visit this [website][website].
+### Usage
 
-Explain what these tests test and why
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
 [website]: https://hackernoon.com/building-an-insanely-fast-image-classifier-on-android-with-mobilenets-in-tensorflow-dc3e0c4410d4 "https://hackernoon.com"

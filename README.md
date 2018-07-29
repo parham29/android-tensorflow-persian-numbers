@@ -53,12 +53,29 @@ To install the GPU version of TensorFlow, enter the following command (on a sing
 ```
 
  for more help visit this [website][website].
+ 
 ### Usage
 Flow of the app is pretty simple:
 1. Take or pick a photo from storage.
 2. Classify numbers.
 3. Show the results and confidence(probability).
 
+
+### Code structure
+The app consists of two main components:
+1. <code>MainActivity</code> which is responsible for taking a photo.
+2. <code>ImageClassifier</code> which classifies the photo.
+
+### Classifier
+<code>ImageClassifier</code> properties:
+- <code>inputName</code> - the name of the classifier's input (the photo pixels goes in there),
+- <code>outputName</code> - the name of the classifier's output (the results can be found there),
+- <code>imageSize</code> - the size of the photo,
+- <code>labels</code> - the list of the labels (in our case "hot" and "not"),
+- <code>imageBitmapPixels</code> - the array with bitmap pixels (int values before normalization),
+- <code>imageNormalizedPixels</code> - the array with normalized pixels,
+- <code>results</code> - the list with the results,
+- <code>tensorFlowInference</code> - the TensorFlow API object (which is used for inference).
 
 
 [website]: https://hackernoon.com/building-an-insanely-fast-image-classifier-on-android-with-mobilenets-in-tensorflow-dc3e0c4410d4 "https://hackernoon.com"

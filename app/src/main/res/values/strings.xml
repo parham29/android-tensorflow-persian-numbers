@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">نگاره پرداز</string>
+
+    <string name="HTC_ONE_M8">m8</string>
+    <string name="SERGIO_RAMOS">sergio ramos</string>
+    <string name="PT">parham talebian</string>
+    <string name="LG_K10_2017">lg k10 2017</string>
+    <string name="IPHONE_X">iphone x</string>
+    <string name="ASUS_N551VW">asus n551vw</string>
+    <string name="SORRY">Sorry, im not sure enough :(</string>
+    <string name="probability">probability: %.2f%%</string>
+
+    <string name="take_photo">Take photo</string>
+    <string name="WELCOME">از دکمه ی بالای صفحه برای گرفتن یا انتخاب عکس استفاده کنید.</string>
+    <string name="take_file">file chooser</string>
+</resources>

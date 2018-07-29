@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#26C6DA</color>
+    <color name="colorPrimaryDark">#00ACC1</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="HTC_ONE_M8">#757575</color>
+    <color name="SERGIO_RAMOS">#00796b</color>
+    <color name="PT">#2962ff</color>
+    <color name="LG_K10_2017">#d500f9</color>
+    <color name="IPHONE_X">#f00000</color>
+    <color name="ASUS_N551VW">#42f939</color>
+    <color name="SORRY">#ffffff</color>
+    <color name="txtcolor">#F2F2F2</color>
+    <color name="BLACK">#000000</color>
+</resources>

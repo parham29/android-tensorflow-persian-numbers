@@ -21,7 +21,7 @@ Just clone the project.
 
 ### Prerequisites
 
-If you want to build your own image classifier you shoud install Tensorflow furthermore you need your own dataset.
+If you want to build your own image classifier you shoud install Tensorflow on your pc furthermore you need your own dataset.
 Note: python (version 3.+) required.
 
 this command are for windows users:
@@ -34,16 +34,16 @@ C:\> pip3 install --upgrade tensorflow-gpu
 ```
 **Installing with Anaconda:**
 1. Follow the instructions on the [Anaconda download site](https://www.continuum.io/downloads "Anaconda download site") to download and install Anaconda.
-1. Create a conda environment named tensorflow by invoking the following command:
+2. Create a conda environment named tensorflow by invoking the following command:
 ```
 C:> conda create -n tensorflow pip python=3.5 
 ```
-1. Activate the conda environment by issuing the following command:
+3. Activate the conda environment by issuing the following command:
 ```
 C:> activate tensorflow
  (tensorflow)C:>  # Your prompt should change 
 ```
-1. Issue the appropriate command to install TensorFlow inside your conda environment. To install the CPU-only version of TensorFlow, enter the following command:
+4. Issue the appropriate command to install TensorFlow inside your conda environment. To install the CPU-only version of TensorFlow, enter the following command:
 ```
 (tensorflow)C:> pip install --ignore-installed --upgrade tensorflow 
 ```

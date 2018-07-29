@@ -1,6 +1,10 @@
 # Android Image Classifier 
 
 An android app for recognizing persian numbers with Tensorflow and android studio
+![alt text](https://github.com/parham29/tensorflow-persian-numbers/blob/master/test-1.jpg)
+![alt text](https://github.com/parham29/tensorflow-persian-numbers/blob/master/test-2.jpg)
+![alt text](https://github.com/parham29/tensorflow-persian-numbers/blob/master/test-3.jpg)
+
 
 ## Getting Started
 

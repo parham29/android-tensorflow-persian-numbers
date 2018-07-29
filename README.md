@@ -3,12 +3,12 @@
 An android app for recognizing persian numbers with Tensorflow and android studio
 
 
-![third test](https://github.com/parham29/tensorflow-persian-numbers/blob/master/screenshots/test-4.jpg)
 
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![first test](https://github.com/parham29/tensorflow-persian-numbers/blob/master/screenshots/test-1.jpg)  |  ![second test](https://github.com/parham29/tensorflow-persian-numbers/blob/master/screenshots/test-3.jpg)
+
+Solarized dark             |  Solarized Ocean  | sdsd
+:-------------------------:|:-------------------------:|:-------------------------
+![first test](https://github.com/parham29/tensorflow-persian-numbers/blob/master/screenshots/test-1.jpg)  |  ![second test](https://github.com/parham29/tensorflow-persian-numbers/blob/master/screenshots/test-3.jpg)|![third test](https://github.com/parham29/tensorflow-persian-numbers/blob/master/screenshots/test-4.jpg)
 
 
 ## Getting Started

@@ -54,6 +54,10 @@ To install the GPU version of TensorFlow, enter the following command (on a sing
 
  for more help visit this [website][website].
 ### Usage
+Flow of the app is pretty simple:
+1. Take or pick a photo from storage.
+2. Classify numbers.
+3. Show the results and confidence(probability).
 
 
 

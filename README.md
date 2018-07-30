@@ -91,6 +91,6 @@ Prepared photo is passed to the <code>ImageClassifier</code>. The class responsi
 
 The results are then passed to the MainActivity and shown on the screen (including probability).
 
-
+Special thanks to @makorowy
 
 [website]: https://hackernoon.com/building-an-insanely-fast-image-classifier-on-android-with-mobilenets-in-tensorflow-dc3e0c4410d4 "https://hackernoon.com"

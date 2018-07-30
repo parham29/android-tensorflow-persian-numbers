@@ -77,5 +77,20 @@ The app consists of two main components:
 - <code>results</code> - the list with the results,
 - <code>tensorFlowInference</code> - the TensorFlow API object (which is used for inference).
 
+### Classification process
+For classifying photos the app is using retrained [MobileNet](https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet_v1.md "MobileNet") model. The model can be found inside the <code>assets</code> folder together with the labels file.
+
+Before classification the photo needs to be prepared to fit the input of the classifier which is 224x224 pixels. Because of that the photo is resized and cropped which is happening inside the <code>ImageUtils</code>.
+
+Prepared photo is passed to the <code>ImageClassifier</code>. The class responsibilities are as follows:
+1. Nomalizing pixels of the photo - <code>preprocessImageToNormalizedFloats()</code> method.
+2. Run the classifier: 
+<code>tensorFlowInference.run(arrayOf(outputName), ENABLE_LOG_STATS)</code>
+3. Get the results from the output: 
+<code>tensorFlowInference.fetch(outputName, results)</code>
+
+The results are then passed to the MainActivity and shown on the screen (including probability).
+
+
 
 [website]: https://hackernoon.com/building-an-insanely-fast-image-classifier-on-android-with-mobilenets-in-tensorflow-dc3e0c4410d4 "https://hackernoon.com"
